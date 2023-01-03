@@ -1,30 +1,3 @@
-# Sample Application with Node.js and Express Framework
+# Sample Application with Node.js and an Express private version
 
-This sample is running on: https://node-express.is-easy-on-scalingo.com/
-
-## Deploy via Git
-
-Create an application on https://scalingo.com, then:
-
-```shell
-scalingo --app my-app git-setup
-git push scalingo master
-```
-
-And that's it!
-
-## Deploy via One-Click
-
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
-
-## Running Locally
-
-```shell
-docker-compose build
-docker-compose run --rm web npm install
-docker-compose up
-```
-
-## Links
-
-Documentation: https://doc.scalingo.com/languages/javascript/nodejs
+To try this repository follow this [procedure](https://doc.scalingo.com/platform/deployment/buildpacks/ssh-key) and ask to collaborate on the private express repository mentioned in `package.json`.
